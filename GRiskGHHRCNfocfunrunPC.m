@@ -37,7 +37,7 @@ nssTh=((1-alpha)*A*kssTh^alpha)^(1/(theta+alpha-1));
 cssTh=A*kssTh^alpha*nssTh^(1-alpha) - delta*kssTh;
 % kss=((alpha*A*nssTh^(1-alpha))/(1/beta-1+delta))^(1/(1-alpha)); % Theoretical kss
 
-gp=800 % 4000 even number of gridpoints k-vector
+gp=8000 % 4000 even number of gridpoints k-vector
 gpz=51; % 19,21 odd number>=5 Stops running properly if too large, and optimal k-rule goes out of bounds with so high shock values
 
 T=1e8 % 1e8 (if HP filtering) or 2e8
