@@ -66,7 +66,7 @@ GBRAMreq=(2*gp^2*gpz+3*gp*gpz+gpz^2)*8/1024^3 % 8 bit with double precision
 % if UsekssTh==1
 %     Ti=0;
 % else
-%     Ti=1e4; % Drops first Ti simulated. Starts at SS, but multiple SS
+%     Ti=1e6; % Drops first Ti simulated. Starts at SS, but multiple SS
 % end
 
 sdzvect = (sdzstep*sdzsteps:-sdzstep:0);
