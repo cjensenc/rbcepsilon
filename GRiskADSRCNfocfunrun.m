@@ -31,9 +31,9 @@ colors={[0.6859 0.4035 0.2412]; [0.2941 0.5447 0.7494]; [0.3718 0.7176 0.3612]; 
 gp=4000 % 4000 even number of gridpoints k-vector
 gpz=51; % 51 19 odd number>=5 Stops running properly if too large, and optimal k-rule goes out of bounds with so high shock values
 
-T=1e8/100 % 1e8 (if HP filtering) or 2e8, simulation length. 4e8 is too much for 16GB RAM
+T=1e8 % 1e8 (if HP filtering) or 2e8, simulation length. 4e8 is too much for 16GB RAM
 Reps=1e3 % 1e3 Repetitions in simulations. Faster with larger T, less reps.
-Ti=1e6/10;
+Ti=1e6;
 
 
 
