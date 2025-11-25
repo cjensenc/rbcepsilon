@@ -19,8 +19,8 @@ disp('Pool loaded!');
 alpha=1/3 %1/3;
 rho=.9 %.95
 beta=.99;%.989-.995
-mu=0; %safe income
-delta=.025; %.025 also yields safe income .01-.04 quarterly, .025 popular
+mu=0; %
+delta=.025; %.025  .01-.04 quarterly
 theta=1.5 %1.25-2.25 
 sdzstep=.2; %.005
 sdzsteps=4
