@@ -17,12 +17,12 @@ mypool = parpool(cpus);
 disp('Pool loaded!');
 
 
-%digits(32); % 16 controls precision and tolerance for convergence
+% digits(32); % 16 controls precision and tolerance for convergence
 alpha=1/3 %1/3;
-rho=.95 %.9 
+rho=.9 %.9 
 beta=.99;%.989-.995
 mu=0; %safe income
-delta=.025; %.02 also yields safe income .01-.04 quarterly
+delta=.025; %.025 .01-.04 quarterly
 sdzsteps=1 %20
 sdzstep=.2/sdzsteps; %.01
 sigmavect=[4; 3; 2; 1.01; .5];%  sigma can't equal 1
@@ -31,7 +31,7 @@ colors={[0.6859 0.4035 0.2412]; [0.2941 0.5447 0.7494]; [0.3718 0.7176 0.3612]; 
 
 
 gp=8000 %8000; % 4000 even number of gridpoints k-vector
-gpz=51; %51, 15-21 odd number Stops running properly if too large, and optimal k-rule goes out of bounds with so high shock values
+gpz=51; %51
 
 T=1e8; % 1e8 (if HP filtering)
 Reps=1e3; % 1e3 Repetitions in simulations
